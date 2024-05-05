@@ -30,7 +30,7 @@ function setupSettings() {
   const darkModal = new Modal(
     "Settings",
     settings,
-    settings.querySelector(".modal-content")
+    settings.querySelector(".modal-content"),
   );
   darkModal.render();
 }
@@ -47,7 +47,7 @@ function setupAddText() {
   const textModal = new Modal(
     "Add some text",
     textInputs,
-    textInputs.querySelector(".modal-content")
+    textInputs.querySelector(".modal-content"),
   );
   textModal.render();
 }
@@ -59,7 +59,7 @@ async function setupTakeSelfie() {
   const selfieModal = new Modal(
     "Take a selfie",
     selfie,
-    selfie.querySelector(".modal-content")
+    selfie.querySelector(".modal-content"),
   );
   selfieModal.render();
 
